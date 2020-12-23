@@ -3,7 +3,7 @@ using DataLibrary.Db.Models;
 
 namespace DataLibrary.Data
 {
-    internal interface IOrderData
+    public interface IOrderData
     {
         Task<int> CreateOrder(OrderModel order);
         Task<int> UpdateOrderName(int orderId,string orderName);

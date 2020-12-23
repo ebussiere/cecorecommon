@@ -10,7 +10,7 @@ using DataLibrary.Db.Models;
 
 namespace DataLibrary.Data
 {
-    class OrderData : IOrderData
+    public class OrderData : IOrderData
     {
         private readonly IDataAccess _dataAccess;
         private readonly ConnectionStringData _connectionString;
