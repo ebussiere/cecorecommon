@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[spFood_all]
+﻿CREATE PROCEDURE [dbo].[spFood_All]
 AS
 begin
 	set nocount on;

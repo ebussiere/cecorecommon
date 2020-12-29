@@ -31,7 +31,7 @@ namespace DataLibrary.Data
            p.Add("Total", order.Total);
            p.Add("Id", DbType.Int32,direction: ParameterDirection.Output);
 
-           await _dataAccess.SaveData("dbo.sp_Orders_Insert", p, _connectionString.SqlConnectionName);
+           await _dataAccess.SaveData("dbo.spOrders_Insert", p, _connectionString.SqlConnectionName);
            return p.Get<int>("Id");
         }
 

@@ -20,7 +20,7 @@ namespace DataLibrary.Data
 
         public Task<List<FoodModel>> GetFood()
         {
-            return _dataAccess.LoadData<FoodModel, dynamic>("dbo.spFood_all", new { },
+            return _dataAccess.LoadData<FoodModel, dynamic>("dbo.spFood_All", new { },
                 _connectionString.SqlConnectionName);
         }
     }

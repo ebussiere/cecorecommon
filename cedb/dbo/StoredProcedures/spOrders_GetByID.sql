@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[spOrders_GetByID]
-	@Id int = 0,
-	@param2 int
+	@Id int = 0
+	
 AS
 begin
 set nocount on;
